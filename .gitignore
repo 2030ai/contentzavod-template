@@ -68,6 +68,13 @@ $RECYCLE.BIN/
 # Состояние бота
 state/
 
+# Сгенерированный контент (сохраняем структуру через .gitkeep)
+output/**
+!output/.gitkeep
+!output/images/
+output/images/**
+!output/images/.gitkeep
+
 # Временные файлы
 temp/
 *.tmp
