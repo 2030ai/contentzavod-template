@@ -121,3 +121,7 @@ coverage/
 
 main # Если бинарник называется main
 luac.out
+
+# Local IDE skill mirrors (G2 policy: maintainer + public-facing repo)
+.cursor/skills/
+.codex/skills/
